@@ -40,6 +40,14 @@ class IndexScreen extends StatelessWidget {
                 Navigator.pushNamed(context, '/detail');
               },
             ),
+            ListTile(
+              leading: Icon(Icons.star),
+              title: Text('Chi tiết'),
+              onTap: () {
+                Navigator.popUntil(context, (route) => route.isFirst);
+                Navigator.pushNamed(context, '/detail');
+              },
+            ),
           ],
         ),
       ),

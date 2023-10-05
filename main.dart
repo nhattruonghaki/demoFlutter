@@ -20,13 +20,13 @@ class MyApp extends StatelessWidget {
    @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue,),
-      darkTheme: ThemeData(primaryColor: Colors.grey),
-      color: Colors.amber,
-      supportedLocales: {const Locale('en', ' ')},
-      debugShowCheckedModeBanner: false,
-      initialRoute: '/',
+      // title: 'Flutter Demo',
+      // theme: ThemeData(primarySwatch: Colors.blue,),
+      // darkTheme: ThemeData(primaryColor: Colors.grey),
+      // color: Colors.amber,
+      // supportedLocales: {const Locale('en', ' ')},
+      // debugShowCheckedModeBanner: false,
+      // initialRoute: '/',
       routes: {
         '/': (context) => const IndexScreen(),
         '/detail': (context) => const DetailScreen(),

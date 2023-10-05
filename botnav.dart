@@ -18,6 +18,10 @@ class BottomNav extends StatelessWidget {
         label: "Chi tiết",
         icon: Icon(Icons.star,),
       ),
+      BottomNavigationBarItem(
+        label: "Cá nhân",
+        icon: Icon(Icons.account_box,),
+      ),
       ],
       currentIndex: idx,
       onTap: (int indexOfItem){
